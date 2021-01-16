@@ -1,0 +1,33 @@
+body{
+	margin:0;
+
+}
+.navigation-wrapper{
+	display: flex;
+	height: 200px;
+	background-color: #000099;
+	color: 000000;
+	justify-content: space-between;
+}
+.navigation-wrapper>.left-column{
+	margin-left:  30px;
+}
+.navigation-wrapper>.nav-link-wrapper{
+	display: flex;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 150px;
+}
+.navigation-wrapper>.nav-link-wrapper>.navlink{
+	margin: 15px;
+	color: #FFFFFF;
+	
+}
+.navigation-wrapper>.nav-link-wrapper a{
+	text-decoration: none;
+	color: #000000;
+	font-size: 1.2em;
+}
+.navigation-wrapper>.nav-link-wrapper a:hover{
+	color: #CBCBCB;
+		}
